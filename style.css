@@ -1,0 +1,441 @@
+a /* Liens par défaut (non survolés) */
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    align-content: center;
+    margin-bottom: 0%;
+    margin-left: 0%; 
+      
+
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    background-image: url("fond.jpg");
+    background-repeat: repeat; /* Le fond sera répété */
+    flex-direction: row;
+}
+.premiereLigne
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.bloc_page
+{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    margin: 10px;
+}
+.contenu
+{
+    display: flex;
+    flex-direction: row;  
+    width: 100%;
+
+
+}   
+.titres
+{
+    display: flex;
+    flex-direction: row;  
+    width: 100%;
+
+}
+.titre1
+{
+    width: 50%;
+
+}
+.colloneDroite
+{
+    border-left: solid red;
+    width: 100%;
+    
+}
+.colloneGauche
+{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    align-content: center;
+    margin-bottom: 0%;
+    padding: 5px;  
+    margin-left: 0%; 
+    padding-left: 15%;
+      
+}
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10%;
+}
+h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 0px;
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+h4
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 0px;
+    padding-left: 15%;
+}
+.decalage3
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 0px;
+    padding-left: 40%;
+}
+
+.decalage2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 0px;
+    padding-left: 20%;
+}
+.decalageImg
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+}
+footer
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.mail
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    height: 8%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.cell1
+{
+    width: 100%;
+    margin-left: 10%;
+}
+.cell2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+.espace
+{
+    height: 10px;
+
+}
+.prom
+{   
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.test
+{   
+    width: 0%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.gaucheGauche
+{
+    width:100%;
+    padding-left: 15%;
+}
+.gaucheDroite
+{
+    width: 0px;
+    height: 0px;
+}
+.nettoyage
+{   
+    width: 0%; 
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.depannage
+{
+    margin-left: 10%;
+}
+.visites
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0%;
+}
+.h3suppl
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 0px;
+    padding-left: 0%;
+    padding-top: 8%;
+
+}
+.imageCentrale
+{
+    padding-left: 10%;
+
+}
+@media screen and (width < 1500px)   /* en cas de smartphone, plus de photo visage*/
+{
+    a /* Liens par défaut (non survolés) */
+    {
+    text-decoration: none;
+    color: mediumblue;
+    font-style: italic;
+    }
+
+    a:hover /* Apparence au survol des liens */
+    {
+    text-decoration: underline;
+    color: green;
+    }
+
+    body
+    {
+        display: flex;
+        flex-direction: row;    
+        width: 100%;
+        background-image: url("fond.jpg");
+        background-repeat: repeat; /* Le fond sera répété */
+        flex-direction: row;
+    }
+    .premiereLigne
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .bloc_page
+    {
+        display: flex;
+        flex-direction: column;    
+        width: 100%;
+        margin: 10px;
+    }
+    .imageDroite
+    {
+        display: none;
+
+    }
+    .imageGauche
+    {
+        display: none;
+
+    }
+    .imageCentrale
+    {
+        width: 100%;
+
+    }
+    .contenu
+    {
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+
+
+    }   
+
+    .colloneDroite
+    {
+        border-left: none;
+        width: 100%;
+    }
+    .colloneGauche
+    {
+        display: flex;
+        border-bottom:  thick double #32a1ce;
+        flex-direction: row;
+        width: 100%;
+        align-items: start;
+    }
+    h1
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xxx-large;
+        align-content: center;
+        margin: 0px;
+        padding: 5px;     
+    }
+    h2
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: xx-large;
+        margin: 0px;
+        padding: 5px;
+    }
+    h3
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: xx-large;
+        margin: 0px;
+        padding-left: 5%;
+    }
+    h4
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        margin: 0px;
+        padding-left: 15%;
+    }
+    .decalage3
+    {
+        /*font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        margin: 0px;*/
+        padding-left: 40%;
+    }
+
+    .decalage2
+    {
+        /*font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        margin: 0px;*/
+        padding-left: 20%;
+    }
+    .decalage
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:center 
+    }
+    .decalageTab
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around; 
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+    .mail
+    {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+    }
+    .cell1
+    {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        width: 50%;
+
+    }
+    .espace
+    {
+        height: 20px;
+        border-bottom:  thick double #32a1ce;
+        padding: 10px;
+    }
+    .prom
+    {   
+        width: 0%; 
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .nettoyage
+    {   
+        width: 100%; 
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .test
+    {   
+        width: 100%; 
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .gaucheGauche
+    {
+        width: 50%;
+        padding-left: 15%;
+        
+    }
+    .gaucheDroite
+    {
+        width: 50%;
+        padding-top: 10%;
+    
+    }
+    .decalageImg
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around; 
+        width: 100%;
+    }
+    .depannage
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around; 
+        padding-top: 5%;
+    }
+    .h3suppl
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: xx-large;
+        margin: 0px;
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+
+
+}
