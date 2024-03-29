@@ -293,6 +293,7 @@ footer
         display: flex;
         border-bottom:  thick double #32a1ce;
         flex-direction: row;
+        align-items: center;
         width: 100%;
         align-items: start;
     }
@@ -425,7 +426,7 @@ footer
         display: flex;
         flex-direction: column;
         justify-content:space-around; 
-        padding-top: 5%;
+        padding-top: 0%;
     }
     .h3suppl
     {
@@ -433,8 +434,12 @@ footer
         font-weight: bold;
         font-size: xx-large;
         margin: 0px;
-        padding-left: 0%;
+        padding-left: 5%;
         padding-top: 0%;
+    }
+    .telephone
+    {
+        border-top: thick double #32a1ce;;
     }
 
 

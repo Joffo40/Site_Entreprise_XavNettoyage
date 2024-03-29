@@ -76,13 +76,13 @@
                                                 <h3>REPASSAGE</h3>
                                                 <h3>ADMINISTRATION</h3>
                                                 <h3>LAVAGE VITRES PARTICULIERS</h3>
-                                                <h3>PETIT DEPANNAGE<h3>
+                                                
                                 </div>
                                 <img src="prom.png" alt="Devis" title="Devis" width="100%" class = "prom" />
                                 <img src="test.png" alt="Devis" title="Devis" width="100%" class = "test" />
                         </div>
                                 <div class="depannage">
-                                        
+                                        <div class="h3suppl">PETIT DEPANNAGE</div>
                                         <h4>Tous travaux tout etat Ext/Int Reno/Neuf/Batiments </h4>
                                         
                                         
@@ -115,7 +115,7 @@
                 fputs($fp,$nbvisites);
                 fclose($fp);
                 print("$nbvisites visiteurs");?></div>
-                <div class="num....."><B>Numero S....:</B><I>XXXXXX</I></div>
+                <!--<div class="num....."><B>Numero S....:</B><I>XXXXXX</I></div>-->
         </footer>
 
 
