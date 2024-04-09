@@ -293,9 +293,10 @@ footer
         display: flex;
         border-bottom:  thick double #32a1ce;
         flex-direction: row;
-        align-items: center;
+        justify-content:start ;
+        
         width: 100%;
-        align-items: start;
+        
     }
     h1
     {
@@ -373,6 +374,7 @@ footer
         flex-direction: column; 
         justify-content: center;
         width: 50%;
+        margin-left: 0%;
 
     }
     .espace
@@ -427,6 +429,8 @@ footer
         flex-direction: column;
         justify-content:space-around; 
         padding-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 8%;
     }
     .h3suppl
     {

@@ -71,7 +71,7 @@
                         
                         <div class="decalageImg">
                                 <div class="cell1">
-                                                <h1>AIDE A LA PERSONNE</h1>
+                                                <h1>SERVICE, AIDE A LA PERSONNE</h1>
                                                 <h3>MENAGE</h3>
                                                 <h3>REPASSAGE</h3>
                                                 <h3>ADMINISTRATION</h3>
