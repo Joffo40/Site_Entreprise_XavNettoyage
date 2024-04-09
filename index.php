@@ -78,8 +78,8 @@
                                                 <h3>LAVAGE VITRES PARTICULIERS</h3>
                                                 
                                 </div>
-                                <img src="prom.png" alt="Devis" title="Devis" width="100%" class = "prom" />
-                                <img src="test.png" alt="Devis" title="Devis" width="100%" class = "test" />
+                                <div class="prom"><img src="prom.png" alt="Devis" title="Devis" width="100%"/></div>
+                                <div class="test"><img src="test.png" alt="Devis" title="Devis" width="100%" /></div>
                         </div>
                                 <div class="depannage">
                                         <div class="h3suppl">PETIT DEPANNAGE</div>
