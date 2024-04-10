@@ -68,7 +68,7 @@
 
                 <div class="colloneDroite">
                         
-                        <h1>SERVICE, AIDE A LA PERSONNE</h1>
+                        <h1>SERVICE A LA PERSONNE</h1>
                         <div class="decalageImg">
                                     
                                 <div class="cell1">
