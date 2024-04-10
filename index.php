@@ -107,6 +107,7 @@
         <footer>
                 
                 <div class="numSIRET"><B>Numero SIRET:</B><I>51482391300017</I></div>
+                <div class="h4suppl">Mérignac</div>
                 <div class="visites">
                 <?php
                 $fp=fopen("comptage.txt","r+");
